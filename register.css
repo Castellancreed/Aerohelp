@@ -1,0 +1,8 @@
+#banner{
+  text-align: left;
+  background-image: url("images/email.jpg");
+  background-size: cover;
+  padding: 150px;
+  color: black;
+}
+        

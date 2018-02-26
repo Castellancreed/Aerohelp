@@ -1,0 +1,73 @@
+#banner{
+  text-align: center;
+  background-image: url("https://picsum.photos/1300/600?");
+  background-size: cover;
+  padding: 150px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+#banner h1 {
+  color: white;
+  font-size: 50px;
+  font-family: 'Pacifico', cursive;
+}
+#banner p {
+  color: white;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+  font-family: 'Lobster', cursive;
+}
+#footer{
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+}
+.card{
+  padding: 50px;
+  font-weight: lighter;
+}
+#footer a {
+  color: lightgrey;
+  font-size: 15px;
+}
+#footer a:hover {
+  color: white;
+}
+.btn-perso {
+  padding:6px 0 6px 0;
+  font:bold 13px Arial;
+  background:#f5f5f5;
+  color: rgb(208, 122, 29);
+  border-radius:2px;
+  width:100px;
+  border:1px solid #ccc;
+  box-shadow:1px 1px 3px #999;
+}
+.logo-perso{
+  width:150px;
+  padding: 20px;
+}
+.map{
+  padding: 70px 70px 70px 0px;
+  width: 50px 50px;
+}
+.btn-register{
+  padding:6px 0 6px 0;
+  font:bold 13px Arial;
+  background:#f5f5f5;
+  color: rgb(208, 122, 29);
+  border-radius:2px;
+  width:100px;
+  border:1px solid #ccc;
+  box-shadow:1px 1px 3px #999;
+  position:absolute;
+        right:0;
+    top:0;
+    margin-top:6px;
+    margin-right:10px;
+}
+@media (max-width:500px){
+    .container{
+        float:left;
+}
