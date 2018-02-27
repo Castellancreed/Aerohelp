@@ -1,6 +1,6 @@
 #banner{
   text-align: center;
-  background-image: url("https://picsum.photos/1300/600?");
+  background-image: url("images/Banner.png");
   background-size: cover;
   padding: 150px;
   color: white;
@@ -44,9 +44,18 @@
   border:1px solid #ccc;
   box-shadow:1px 1px 3px #999;
 }
+.btn-perso a:hover {
+  padding:6px 0 6px 0;
+  font:bold 13px Arial;
+  background:#f5f5f5;
+  color: rgb(208, 122, 29);
+  border-radius:2px;
+  width:100px;
+  border:1px solid #ccc;
+  }
 .logo-perso{
   width:150px;
-  padding: 20px;
+  padding:20px;
 }
 .map{
   padding: 70px 70px 70px 0px;
@@ -70,4 +79,12 @@
 @media (max-width:500px){
     .container{
         float:left;
+}
+.container-fluid p {
+  text-align: center;
+  color: white;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+  font-family: 'Lobster', cursive;
 }
