@@ -58,7 +58,8 @@
   padding:20px;
 }
 .map{
-  padding: 70px 70px 70px 0px;
+  text-align: center;
+  padding: 70px 70px 70px 70px;
   width: 50px 50px;
 }
 .btn-register{
@@ -76,10 +77,16 @@
     margin-top:6px;
     margin-right:10px;
 }
-@media (max-width:500px){
-    .container{
-        float:left;
+
+.titre {
+  text-align: center;
+  color: black;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+  font-family: 'Lobster', cursive;
 }
+
 .container-fluid p {
   text-align: center;
   color: white;
